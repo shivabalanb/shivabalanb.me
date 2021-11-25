@@ -44,7 +44,7 @@ gsap.registerPlugin(ScrollTrigger);
             },
             opacity: 0,
             y: 20,
-            duration: 2,
+            duration: 1,
             stagger: .5,
             
         })
