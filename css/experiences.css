@@ -51,15 +51,15 @@ img {
 }
 
 .experiences .entry:nth-child(3n + 3) {
-  background: #001d4a;
+  background: #e5d0e3;
 }
 
 .experiences .entry:nth-child(3n + 2) {
-  background: #002966;
+  background: #d0dfe5;
 }
 
 .experiences .entry:nth-child(3n + 1) {
-  background: #033e95;
+  background: #d0e5d8;
 }
 
 .experiences .section_title {
@@ -71,6 +71,7 @@ img {
 
 .experiences .entry {
   padding: 2rem;
+  color: black;
 }
 
 .experiences .entry br {
@@ -81,11 +82,13 @@ img {
 }
 
 .experiences .entry .title {
+  color: #001d4a;
   font-weight: 400;
   padding-top: 2rem 0;
 }
 
 .experiences .entry .date {
+  color: royalblue;
   line-height: 0.5rem;
   font-weight: 400;
   font-size: 1.2rem;
@@ -93,7 +96,7 @@ img {
 
 .experiences .entry .desc {
   font-weight: 400;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 .experiences .entry .img {

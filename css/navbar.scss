@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
 
 header {
-  z-index: 2;
+  z-index: 5;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -136,19 +136,21 @@ header {
     display: flex;
     justify-content: space-around;
 
-    .bi {
-      width: 40px;
-      height: auto;
-      transition: transform 0.3s ease-in-out;
-    }
-    .bi-linkedin {
-      color: #0077b7;
-    }
-    .bi-github {
-      color: #222222;
-    }
-    .bi-file-earmark-person {
-      color: #e65f5c;
+    a {
+      .bi {
+        width: 50px;
+        height: auto;
+        transition: transform 0.3s ease-in-out;
+      }
+      .bi-linkedin {
+        color: #007ab7;
+      }
+      .bi-github {
+        color: #222222;
+      }
+      .bi-file-earmark-person {
+        color: #e65f5c;
+      }
     }
   }
 }
@@ -192,10 +194,8 @@ header {
       background: #002966;
     }
     .contact_right {
-      padding: 2rem 4rem;
-      .bi {
-        width: 60px;
-        height: auto;
+      a {
+        display: flex;
       }
     }
   }

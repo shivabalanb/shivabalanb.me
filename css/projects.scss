@@ -1,0 +1,88 @@
+.projects {
+  background: white;
+  font-size: 14px;
+
+  .project {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    .content {
+      padding: 4rem;
+      padding-right: 8rem;
+      width: 100%;
+      position: relative;
+      top: 2rem;
+      color: #000;
+    }
+    .image {
+      max-width: 400px;
+      height: auto;
+      object-fit: cover;
+
+      .small {
+        width: 50%;
+        position: relative;
+        float: right;
+        top: -50px;
+      }
+    }
+
+    .content {
+      ul {
+        padding-left: 1rem;
+        list-style-type: circle;
+      }
+    }
+  }
+}
+
+.project:nth-child(2n + 1) {
+  background: #062553;
+  .content {
+    background: rgb(255, 255, 255);
+    h1 {
+      color: #00178a;
+      font-size: 2rem;
+      padding-right: 1rem;
+    }
+    p,
+    li {
+      color: rgb(0, 0, 0);
+      font-size: 1.2rem;
+      padding-right: 1rem;
+    }
+  }
+}
+.project:nth-child(2n + 2) {
+  background: #00f0b5;
+  .content {
+    background: #e65f5c;
+
+    color: #00f0b5;
+    font-size: 1rem;
+
+    h1,
+    h2 {
+      padding-right: 1rem;
+    }
+
+    p,
+    li {
+      color: white;
+      font-size: 1.2rem;
+      padding-right: 1rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 880px) {
+  .projects {
+    .project {
+      flex-direction: row;
+      margin-bottom: 2rem;
+      .content {
+        margin-left: 5rem;
+      }
+    }
+  }
+}

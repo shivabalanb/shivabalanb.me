@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
 header {
-  z-index: 2;
+  z-index: 5;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -171,8 +171,8 @@ header .menu .bars.on {
       justify-content: space-around;
 }
 
-.contact .contact_right .bi {
-  width: 40px;
+.contact .contact_right a .bi {
+  width: 50px;
   height: auto;
   -webkit-transition: -webkit-transform 0.3s ease-in-out;
   transition: -webkit-transform 0.3s ease-in-out;
@@ -180,15 +180,15 @@ header .menu .bars.on {
   transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 }
 
-.contact .contact_right .bi-linkedin {
-  color: #0077b7;
+.contact .contact_right a .bi-linkedin {
+  color: #007ab7;
 }
 
-.contact .contact_right .bi-github {
+.contact .contact_right a .bi-github {
   color: #222222;
 }
 
-.contact .contact_right .bi-file-earmark-person {
+.contact .contact_right a .bi-file-earmark-person {
   color: #e65f5c;
 }
 
@@ -232,12 +232,10 @@ header .menu .bars.on {
     padding: 2rem 4rem;
     background: #002966;
   }
-  .contact .contact_right {
-    padding: 2rem 4rem;
-  }
-  .contact .contact_right .bi {
-    width: 60px;
-    height: auto;
+  .contact .contact_right a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 /*# sourceMappingURL=navbar.css.map */
