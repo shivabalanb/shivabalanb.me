@@ -1,3 +1,18 @@
+.skills {
+  padding: 0 2rem;
+  background: #e5d0e3;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  p {
+    color: black;
+    letter-spacing: 5px;
+    text-align: center;
+    padding: 1rem;
+  }
+}
+
 .projects {
   background: white;
   font-size: 14px;
